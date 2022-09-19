@@ -1,0 +1,22 @@
+.cabecalho_artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.direita {
+    text-align: right;
+}
+.cabecalho_artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+.cabecalho_artigo h3 {
+    font-size: 12px;
+    color: #606060;
+    
+    
+}

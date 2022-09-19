@@ -1,0 +1,21 @@
+.cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 180px;
+    background: url("../../img/glass-logo-peq.jpg") no-repeat 0px 120px;
+}
+.cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
+.cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}

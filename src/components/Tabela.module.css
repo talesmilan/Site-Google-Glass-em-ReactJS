@@ -1,0 +1,35 @@
+
+.tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabelaspec td {
+    border: 1px solid #606060; 
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.tabelaspec td.ce {
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+.tabelaspec td.cd {
+    background-color: #cecece;
+}
+.tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bold;
+}
+.tabelaspec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}

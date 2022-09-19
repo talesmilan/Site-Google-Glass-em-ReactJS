@@ -1,0 +1,7 @@
+.rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+.rodape p {
+    text-align: center;
+}
