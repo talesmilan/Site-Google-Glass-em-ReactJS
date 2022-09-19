@@ -1,3 +1,7 @@
+# Projeto Google Glass
+
+Projeto em reactJS de um site sobre Google Glass. Este é um projeto do curso de HTML 5 do canal do YouTube Curso em Vídeo que foi transformado em React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
