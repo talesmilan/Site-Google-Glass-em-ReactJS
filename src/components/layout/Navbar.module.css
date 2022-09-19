@@ -31,3 +31,8 @@
     color: white;
     text-decoration: underline;
 }
+img.icone {
+    position: absolute;
+    left: 780px;
+    top: 70px;
+}
