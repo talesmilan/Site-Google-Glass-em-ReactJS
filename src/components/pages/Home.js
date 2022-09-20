@@ -1,5 +1,5 @@
 import styles from './Home.module.css'
-import Hgroup from '../layout/Hgroup'
+import Header from '../layout/Header'
 import Tabela from '../Tabela'
 import Figure from '../Figure'
 import Lateral from '../layout/Lateral'
@@ -11,7 +11,7 @@ function Home() {
         <div>
             <section className={styles.corpo}>
                 <article className={styles.noticia_principal}>
-                <Hgroup 
+                <Header 
                     secao="Tecnologia > Inovações"
                     descricao="Saiba tudo sobre o Google Glass"
                     data="Atualizado em 23/Abril/2013"

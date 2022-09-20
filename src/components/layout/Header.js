@@ -1,6 +1,6 @@
-import styles from "./Hgroup.module.css"
+import styles from "./Header.module.css"
 
-function Hgroup({secao, descricao, data}) {
+function Header({secao, descricao, data}) {
     return (
         <header className={styles.cabecalho_artigo}>
             <hgroup>
@@ -12,4 +12,4 @@ function Hgroup({secao, descricao, data}) {
     )
 }
 
-export default Hgroup
+export default Header
