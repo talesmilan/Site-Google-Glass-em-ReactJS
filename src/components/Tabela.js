@@ -1,4 +1,5 @@
 import styles from './Tabela.module.css'
+import React from 'react'
 
 function Tabela() {
     return (

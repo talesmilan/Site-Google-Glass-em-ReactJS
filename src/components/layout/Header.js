@@ -1,4 +1,5 @@
 import styles from "./Header.module.css"
+import React from 'react'
 
 function Header({secao, descricao, data}) {
     return (

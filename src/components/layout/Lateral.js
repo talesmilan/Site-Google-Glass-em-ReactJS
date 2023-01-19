@@ -1,6 +1,7 @@
 import video from '../../media/how-it-feels.mp4'
 import imagem from '../../img/video-mini02.jpg'
 import styles from './Lateral.module.css'
+import React from 'react'
 
 function Lateral() {
     return (

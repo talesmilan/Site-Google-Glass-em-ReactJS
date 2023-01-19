@@ -1,5 +1,6 @@
 import imagem from '../img/glass-quadro-homem-mulher.jpg'
 import styles from './Figure.module.css'
+import React from 'react'
 
 function Figure() {
     return (
