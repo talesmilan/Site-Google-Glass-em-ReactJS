@@ -55,8 +55,6 @@ function Formulario() {
 
     }
 
-
-
     return (
         <>
             <MensagemErro erros={erros} />
@@ -81,6 +79,7 @@ function Formulario() {
                     <p><label htmlFor="cEst">Estado: </label>
                     <select name="estado" id="cEst" onChange={handleOnChange} value={dados.estado}>
                         <optgroup label="Região Sudeste">
+                            <option value="" disabled>Selecione um estado</option>
                             <option value="RJ">Rio de Janeiro</option>
                             <option value="SP">São Paulo</option>
                             <option value="MG">Minas Gerais</option>
@@ -132,7 +131,6 @@ function Formulario() {
             </form>
         </>
     )
-
 }
 
 export default Formulario

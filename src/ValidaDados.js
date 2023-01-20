@@ -2,7 +2,6 @@
 
 function ValidaDados(objeto) {
 
-    
     let erros = []
 
     if (objeto.nome.length === 0) {
@@ -35,6 +34,9 @@ function ValidaDados(objeto) {
     }
     if (objeto.cidade.length === 0) {
         erros.push('Você deve preencher o campo "Cidade".')
+    }
+    if (objeto.cidade.quantidade > 5) {
+        erros.push('A quantida máxima permetida por pedido é 5.')
     }
     return erros
 }
