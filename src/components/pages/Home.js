@@ -1,4 +1,3 @@
-import styles from './Home.module.css'
 import Header from '../layout/Header'
 import Tabela from '../Tabela'
 import Figure from '../Figure'
@@ -9,8 +8,8 @@ import video from '../../media/one-day.mp4'
 function Home() {
     return (
         <div>
-            <section className={styles.corpo}>
-                <article className={styles.noticia_principal}>
+            <section className="corpo">
+                <article className="noticia_principal">
                 <Header 
                     secao="Tecnologia > Inovações"
                     descricao="Saiba tudo sobre o Google Glass"
