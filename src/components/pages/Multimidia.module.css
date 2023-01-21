@@ -1,0 +1,19 @@
+.tv-radio {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+.musica {
+    position: absolute;
+    width: 300px;
+    left: 800px;
+    top: 785px;
+}
+.filme {
+    position: absolute;
+    width: 440px;
+    left: 310px;
+    top: 430px;
+}

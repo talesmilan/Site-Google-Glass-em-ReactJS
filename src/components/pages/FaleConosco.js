@@ -4,7 +4,7 @@ import Formulario from '../layout/Formulario'
 function FaleConosco() {
     return (
         <div className="corpo-full">
-            <article className='noticial-princiap'>
+            <article className='noticial-princial'>
                 <Header
                     secao="Fale Conosco > Contato"
                     descricao="Formulário de Contato"

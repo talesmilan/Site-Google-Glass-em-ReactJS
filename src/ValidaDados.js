@@ -10,8 +10,8 @@ function ValidaDados(objeto) {
     if (objeto.senha.length === 0) {
         erros.push('Você deve preencher o campo "Senha".')
     } else {
-        if (objeto.senha.length < 6 || objeto.senha.length > 12) {
-            erros.push('A senha deve ter entre 6 e 12 digitos.')
+        if (objeto.senha.length < 8 || objeto.senha.length > 12) {
+            erros.push('A senha deve ter entre 8 e 12 digitos.')
         }
     }
     if (objeto.email.length === 0) {
