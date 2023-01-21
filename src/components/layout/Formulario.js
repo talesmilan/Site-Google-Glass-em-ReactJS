@@ -61,21 +61,21 @@ function Formulario() {
             <form method="post" onSubmit={handleSubmit} id="fContato">
                 <fieldset id="usuario">
                     <legend>Identificação do Usuário</legend>
-                    <p><label htmlFor="cNome">Nome: </label><input type="text" name="nome" id="cNome" size="30" maxLength="30" placeholder="Nome Completo" onChange={handleOnChange} value={dados.nome} /></p>
-                    <p><label htmlFor="cSenha">Senha: </label><input type="password" name="senha" id="cSenha" size="10" maxLength="8" placeholder="8 digítos" onChange={handleOnChange} value={dados.senha}/></p>
-                    <p><label htmlFor="cMail">E-mail: </label><input type="email" name="email" id="cMail" size="30" maxLength="40" onChange={handleOnChange} value={dados.email}/> </p>
+                    <p><label htmlFor="cNome">Nome: </label><input type="text" name="nome" id="cNome" size="30" maxLength="30" placeholder="Nome Completo" required onChange={handleOnChange} value={dados.nome} /></p>
+                    <p><label htmlFor="cSenha">Senha: </label><input type="password" name="senha" id="cSenha" size="10" maxLength="8" placeholder="8 digítos" required onChange={handleOnChange} value={dados.senha}/></p>
+                    <p><label htmlFor="cMail">E-mail: </label><input type="email" name="email" id="cMail" size="30" maxLength="40" required onChange={handleOnChange} value={dados.email}/> </p>
                 
                     <fieldset id="sexo">
                     <legend>Sexo:</legend>
                             <input value="Masculino" onChange={handleOnChange} checked={dados.sexo === "Masculino"} type="radio" name="sexo" id="cMasc"/><label htmlFor="cMasc">Masculino</label>
                             <input value="Feminino" onChange={handleOnChange} checked={dados.sexo === "Feminino"} type="radio" name="sexo" id="cFem"/><label htmlFor="cFem">Feminino</label>
                     </fieldset>
-                    <p><label htmlFor="cNasc">Data de Nascimento: </label><input type="date" name="data" id="cNasc" onChange={handleOnChange} value={dados.data} /></p>
+                    <p><label htmlFor="cNasc">Data de Nascimento: </label><input type="date" name="data" id="cNasc" required onChange={handleOnChange} value={dados.data} /></p>
                 </fieldset>
                 <fieldset id="endereco">
                     <legend>Endereço do Usuário</legend>
-                    <p><label htmlFor="cRua">Logradouro: </label><input type="text" name="rua" id="cRua" size="30" maxLength="80" placeholder="Rua, Av, Trav, ..." onChange={handleOnChange} value={dados.rua}/> </p>
-                    <p><label htmlFor="cNum">Número: </label><input type="number" name="numero" id="cNum" min="0" max="99999999"onChange={handleOnChange} value={dados.numero}/></p>
+                    <p><label htmlFor="cRua">Logradouro: </label><input type="text" name="rua" id="cRua" size="30" maxLength="80" placeholder="Rua, Av, Trav, ..." required onChange={handleOnChange} value={dados.rua}/> </p>
+                    <p><label htmlFor="cNum">Número: </label><input type="number" name="numero" id="cNum" min="0" max="99999999" required onChange={handleOnChange} value={dados.numero}/></p>
                     <p><label htmlFor="cEst">Estado: </label>
                     <select name="estado" id="cEst" onChange={handleOnChange} value={dados.estado}>
                         <optgroup label="Região Sudeste">
@@ -92,7 +92,7 @@ function Formulario() {
                     </select>
                     </p>
                     <p><label htmlFor="cCid">Cidade: </label>
-                    <input type="text" name="cidade" id="cCid" maslenght="40" size="20" list="cidades" onChange={handleOnChange} value={dados.cidade}/>
+                    <input type="text" name="cidade" id="cCid" maslenght="40" size="20" list="cidades" required onChange={handleOnChange} value={dados.cidade}/>
                     </p>
                     <datalist id="cidades">
                         <option value="Rio de Janeiro"></option>
