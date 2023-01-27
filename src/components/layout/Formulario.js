@@ -113,7 +113,7 @@ function Formulario() {
                 </fieldset>
                 <fieldset id="pedido">
                     <legend>Quero um Google Glass</legend>
-                    <p><input type="checkbox" name="pedido" id="cPed" onChange={handleOnChange} value={dados.pedido}/>
+                    <p><input type="checkbox" name="pedido" id="cPed" onChange={handleOnChange} checked={dados.pedido}/>
                         <label htmlFor="cPed">Gostaria de adquirir um Google Glass quando disponível</label>
                     </p>
                     <p><label htmlFor="cCor">Cor: </label>
